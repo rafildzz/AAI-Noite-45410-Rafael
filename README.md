@@ -3,20 +3,19 @@ AAI Noite - UniFecaf 45410 Rafael Reis Barbosa
 
 //1.Como criar um projeto React Native do zero e subir no GitHub
 
-//Criando o projeto
+//Para começar, use o Expo para criar um novo projeto React Native. No terminal ou prompt de comando, execute:
 npx create-expo-app@latest nome-do-seu-projeto
 
 //Criar um nome para o projeto
  
-//Para acessar a pasta
+//Depois que o projeto for criado, entre no diretório do projeto:
 cd (nome do projeto)
 
-//Comando para rodar o projeto
+//Para iniciar o projeto, execute o comando abaixo. Isso abrirá o Expo Go, permitindo que você visualize o app no seu dispositivo móvel ou emulador:
 npm run start
 
 //Para subir no GitHub 
-
-//Inicializa um novo repositório Git local no diretório atual.
+//Dentro do diretório do projeto, inicialize um repositório Git. Isso criará um diretório .git para rastrear as alterações:
 git init 
 
 //Adiciona todos os arquivos no diretório atual ao "staging area" (área de preparação).
@@ -35,10 +34,10 @@ git push -u origin master.
 
 //2. Como clonar o projeto da nossa aula e rodá-lo
    
-//Como clonar o projeto e roda-lo
+//Para baixar o código-fonte do projeto da aula, use o comando git clone, substituindo o link pelo URL do repositório da aula:
 git clone https://github.com/GuilhermeCamargo744/aula-fecaf-noite-dog-ever-match
 
-//Ache a pasta do projeto
+//Após clonar o repositório, entre no diretório recém-baixado:
 cd aula-fecaf-noite-dog-ever-match 
 
 //Esse comando faz com que você trabalhe nesse branch específico, onde alterações podem ser feitas sem impactar outros branches.
